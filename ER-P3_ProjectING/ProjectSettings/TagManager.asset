@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lightcone
+  - Cartridge1
+  - Cartridge2
   layers:
   - Default
   - TransparentFX
