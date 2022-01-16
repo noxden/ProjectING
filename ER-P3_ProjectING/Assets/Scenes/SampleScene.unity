@@ -745,6 +745,10 @@ PrefabInstance:
       value: SimpleLaternaM
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9b82710887468a4e866eb037868240a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9b82710887468a4e866eb037868240a, type: 3}
       propertyPath: m_TagString
       value: Lantern
       objectReference: {fileID: 0}
@@ -1880,7 +1884,7 @@ GameObject:
   - component: {fileID: 448320174}
   - component: {fileID: 448320173}
   - component: {fileID: 448320172}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2035,7 +2039,7 @@ GameObject:
   - component: {fileID: 464637711}
   - component: {fileID: 464637713}
   - component: {fileID: 464637714}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3719,7 +3723,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -4422,7 +4426,7 @@ GameObject:
   - component: {fileID: 1171203900}
   - component: {fileID: 1171203899}
   - component: {fileID: 1171203898}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6123,7 +6127,7 @@ GameObject:
   - component: {fileID: 1534553862}
   - component: {fileID: 1534553861}
   - component: {fileID: 1534553860}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7288,7 +7292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1284824652025584106, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1284824652025584107, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
       propertyPath: myHandPrefab
@@ -7410,7 +7414,7 @@ GameObject:
   - component: {fileID: 1779257523}
   - component: {fileID: 1779257522}
   - component: {fileID: 1779257521}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7975,7 +7979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1284824652025584106, guid: 8a0d7df467fb26741a49d9ead04dae94, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1284824652025584107, guid: 8a0d7df467fb26741a49d9ead04dae94, type: 3}
       propertyPath: myHandPrefab
@@ -9095,7 +9099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128999559}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
