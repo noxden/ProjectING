@@ -7,6 +7,8 @@ TagManager:
   - Lightcone
   - Cartridge1
   - Cartridge2
+  - CartridgeTransform
+  - Lantern
   layers:
   - Default
   - TransparentFX
