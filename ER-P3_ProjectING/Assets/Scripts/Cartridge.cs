@@ -9,11 +9,14 @@ public class Cartridge : MonoBehaviour
     public bool isInserted;
     public GameObject cartridgeTransform;
 
+    public GameObject thisContainedWorld;
+
     // Start is called before the first frame update
     void Start()
     {
         isGrabbed = false;
         isInserted = false;
+        thisContainedWorld.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class Cartridge : MonoBehaviour
         if (isInserted && isGrabbed)
         {
             isInserted = false;
+            thisContainedWorld.SetActive(false);
         }
 
         Debug.Log(isGrabbed);
@@ -41,6 +45,7 @@ public class Cartridge : MonoBehaviour
             this.transform.rotation = cartridgeTransform.transform.rotation;
             this.transform.position = cartridgeTransform.transform.position;
             isInserted = true;
+            thisContainedWorld.SetActive(true);
         }
     }
 
