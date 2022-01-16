@@ -445,6 +445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 001fa3854f97786438c7e04bb7450fd9, type: 3}
+--- !u!1 &1723209051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3396098037313979674, guid: 8e2dd096b927a3746b0962427654303b, type: 3}
+  m_PrefabInstance: {fileID: 1186829414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1960133060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4879191785861572422, guid: e8ec05f2da478024599fd19b060a31b4, type: 3}
@@ -457,6 +462,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1637016530921862394, guid: c7411e03de3af2e4182badc2a7bbf735, type: 3}
+      propertyPath: m_Reticle
+      value: 
+      objectReference: {fileID: 1723209051}
     - target: {fileID: 1637016531126174065, guid: c7411e03de3af2e4182badc2a7bbf735, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -505,6 +514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 1637016531690538345, guid: c7411e03de3af2e4182badc2a7bbf735, type: 3}
+      propertyPath: m_Reticle
+      value: 
+      objectReference: {fileID: 1723209051}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7411e03de3af2e4182badc2a7bbf735, type: 3}
 --- !u!1001 &2055578587
@@ -562,9 +575,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: --- teleportAreas ---
       objectReference: {fileID: 0}
+    - target: {fileID: 4879191786082905683, guid: e8ec05f2da478024599fd19b060a31b4, type: 3}
+      propertyPath: m_CustomReticle
+      value: 
+      objectReference: {fileID: 2089070196}
     - target: {fileID: 4879191787870572268, guid: e8ec05f2da478024599fd19b060a31b4, type: 3}
       propertyPath: m_Name
       value: anchorBottom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ec05f2da478024599fd19b060a31b4, type: 3}
+--- !u!1 &2089070196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3396098037230466554, guid: 8e2dd096b927a3746b0962427654303b, type: 3}
+  m_PrefabInstance: {fileID: 1186829414}
+  m_PrefabAsset: {fileID: 0}
