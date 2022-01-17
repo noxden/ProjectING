@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightCollision : MonoBehaviour
 {
-
+/*
     private void Awake()
     {
         this.GetComponent<MeshRenderer>().enabled = false;
@@ -24,6 +24,6 @@ public class LightCollision : MonoBehaviour
         {
             this.GetComponent<MeshRenderer>().enabled = false;
         }
-    }
+    }*/
 
 }
