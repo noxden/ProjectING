@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Cartridge : MonoBehaviour
 {
 
@@ -15,6 +16,8 @@ public class Cartridge : MonoBehaviour
     public Light mainLight;
     public Material thisSkybox;
     public Material blackSkybox;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -82,6 +85,8 @@ public class Cartridge : MonoBehaviour
             //RenderSettings.skybox = thisSkybox;
         }
     }
+
+
 
     public void SetIsGrabbed(bool _isGrabbed)
     {

@@ -3706,11 +3706,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 814842141}
+        m_TargetAssemblyTypeName: SendHaptic, Assembly-CSharp
+        m_MethodName: SetIsGrabbed
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 814842134}
         m_TargetAssemblyTypeName: Cartridge, Assembly-CSharp
+        m_MethodName: SetIsGrabbed
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 814842141}
+        m_TargetAssemblyTypeName: SendHaptic, Assembly-CSharp
         m_MethodName: SetIsGrabbed
         m_Mode: 6
         m_Arguments:
@@ -3833,6 +3857,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &814842141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814842132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b80553f3b613b49a4353e58d917102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xrControl: {fileID: 0}
+  isGrabbed: 0
 --- !u!4 &866553613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1284824652025584104, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
@@ -5271,9 +5309,9 @@ MonoBehaviour:
   m_AudioClipForOnHoverExited: {fileID: 0}
   m_PlayAudioClipOnHoverCanceled: 0
   m_AudioClipForOnHoverCanceled: {fileID: 0}
-  m_PlayHapticsOnSelectEntered: 0
-  m_HapticSelectEnterIntensity: 0.4
-  m_HapticSelectEnterDuration: 0.2
+  m_PlayHapticsOnSelectEntered: 1
+  m_HapticSelectEnterIntensity: 0.7
+  m_HapticSelectEnterDuration: 0.01
   m_PlayHapticsOnSelectExited: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
@@ -8811,9 +8849,9 @@ MonoBehaviour:
   m_AudioClipForOnHoverExited: {fileID: 0}
   m_PlayAudioClipOnHoverCanceled: 0
   m_AudioClipForOnHoverCanceled: {fileID: 0}
-  m_PlayHapticsOnSelectEntered: 0
-  m_HapticSelectEnterIntensity: 0
-  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectEntered: 1
+  m_HapticSelectEnterIntensity: 0.7
+  m_HapticSelectEnterDuration: 0.01
   m_PlayHapticsOnSelectExited: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
@@ -10035,11 +10073,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2006232759}
+        m_TargetAssemblyTypeName: SendHaptic, Assembly-CSharp
+        m_MethodName: SetIsGrabbed
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2006232756}
         m_TargetAssemblyTypeName: Cartridge, Assembly-CSharp
+        m_MethodName: SetIsGrabbed
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2006232759}
+        m_TargetAssemblyTypeName: SendHaptic, Assembly-CSharp
         m_MethodName: SetIsGrabbed
         m_Mode: 6
         m_Arguments:
@@ -10183,6 +10245,20 @@ MonoBehaviour:
   mainLight: {fileID: 705507994}
   thisSkybox: {fileID: 2100000, guid: 9e07b5f1ebeb2764ea80a163086f4ba7, type: 2}
   blackSkybox: {fileID: 2100000, guid: abbd5d203b67a164dbb4b458c2cd9cf2, type: 2}
+--- !u!114 &2006232759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006232750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b80553f3b613b49a4353e58d917102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xrControl: {fileID: 0}
+  isGrabbed: 0
 --- !u!1 &2008703270
 GameObject:
   m_ObjectHideFlags: 0
