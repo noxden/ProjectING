@@ -2182,7 +2182,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_AttachTransform: {fileID: 866553613}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -5322,7 +5322,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 0}
+  m_Reticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_StopLineAtFirstRaycastHit: 1
 --- !u!120 &1171203899
 LineRenderer:
@@ -5445,7 +5445,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -7497,7 +7497,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_AttachTransform: {fileID: 1461015707}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -8721,7 +8721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerCharacteristics: 576
   controllerPrefabs: []
-  myHandPrefab: {fileID: 0}
+  myHandPrefab: {fileID: 5686134208185362930, guid: 042855091d4eec446b2a2621c0b830e1, type: 3}
   showController: 1
 --- !u!1 &1763846890
 GameObject:
@@ -8957,7 +8957,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 0}
+  m_Reticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_StopLineAtFirstRaycastHit: 1
 --- !u!120 &1779257522
 LineRenderer:
@@ -9080,7 +9080,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -9581,7 +9581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerCharacteristics: 320
   controllerPrefabs: []
-  myHandPrefab: {fileID: 0}
+  myHandPrefab: {fileID: 109434732395284509, guid: e7bdd2447fe0c1344ae994a6643b3a1e, type: 3}
   showController: 1
 --- !u!1 &1871996296
 GameObject:
