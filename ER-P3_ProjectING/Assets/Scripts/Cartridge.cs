@@ -46,7 +46,7 @@ public class Cartridge : MonoBehaviour
             //Table.SetActive(true);
             Table.GetComponent<MeshRenderer>().enabled = true; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
             SpotLight.enabled = true;
-            //RenderSettings.skybox = blackSkybox; // changing the Skybox works, but it doesnt get masked, so no good for our idea
+            RenderSettings.skybox = blackSkybox; // changing the Skybox works, but it doesnt get masked, so no good for our idea
         }
 
         Debug.Log(isGrabbed);
@@ -65,7 +65,7 @@ public class Cartridge : MonoBehaviour
             //Table.SetActive(false);
             Table.GetComponent<MeshRenderer>().enabled = false; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
             SpotLight.enabled = false;
-            //RenderSettings.skybox = thisSkybox;
+            RenderSettings.skybox = thisSkybox;
         }
     }
 
@@ -82,7 +82,7 @@ public class Cartridge : MonoBehaviour
             //Table.SetActive(false);
             Table.GetComponent<MeshRenderer>().enabled = false;
             SpotLight.enabled = false;
-            //RenderSettings.skybox = thisSkybox;
+            RenderSettings.skybox = thisSkybox;
         }
     }
 
