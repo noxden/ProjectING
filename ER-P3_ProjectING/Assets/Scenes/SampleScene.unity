@@ -947,7 +947,7 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
+  m_TeleportationProvider: {fileID: 464637710}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
 --- !u!1 &126318777
@@ -1229,7 +1229,7 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
+  m_TeleportationProvider: {fileID: 464637710}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
 --- !u!1 &259778027
@@ -2182,7 +2182,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_AttachTransform: {fileID: 866553613}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -2299,6 +2299,7 @@ GameObject:
   - component: {fileID: 464637709}
   - component: {fileID: 464637711}
   - component: {fileID: 464637713}
+  - component: {fileID: 464637715}
   - component: {fileID: 464637714}
   m_Layer: 7
   m_Name: XR Rig
@@ -2363,7 +2364,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464637706}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
   m_Name: 
@@ -2417,9 +2418,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 464637706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400c0eb17005a49438edf308d17eb67a, type: 3}
+  m_Script: {fileID: 11500000, guid: f6f9c8a2d3bb97543a1dbc785e1ae02e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftTeleportRay: {fileID: 1779257524}
+  rightTeleportRay: {fileID: 1171203901}
+  teleportActivationButton: 3
+  activationThreshold: 0.2
+--- !u!114 &464637715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464637706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4364b51a295665943803be62b3da34cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputSourceFromDevice: 4
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &492452115
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,7 +5151,7 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -5445,7 +5466,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -7497,7 +7518,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_AttachTransform: {fileID: 1461015707}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -8035,7 +8056,7 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 505751943461075315, guid: d36216c628673a64a9554ee3f75c9424, type: 3}
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8087,7 +8108,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
+  m_TeleportationProvider: {fileID: 464637710}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
 --- !u!1 &1680760741
@@ -8720,9 +8741,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerCharacteristics: 576
-  controllerPrefabs: []
+  controllerPrefabs:
+  - {fileID: 2184743617864438736, guid: 40df90af0c4ca874e93b06db8530bc75, type: 3}
+  - {fileID: 5687488306853154411, guid: e3ed8ece2024aca4ca1db056217f1f92, type: 3}
   myHandPrefab: {fileID: 5686134208185362930, guid: 042855091d4eec446b2a2621c0b830e1, type: 3}
-  showController: 1
+  showController: 0
 --- !u!1 &1763846890
 GameObject:
   m_ObjectHideFlags: 0
@@ -9080,7 +9103,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1798942160}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -9580,9 +9603,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerCharacteristics: 320
-  controllerPrefabs: []
+  controllerPrefabs:
+  - {fileID: 2184743617864438736, guid: 40df90af0c4ca874e93b06db8530bc75, type: 3}
+  - {fileID: 5687488306853154411, guid: e3ed8ece2024aca4ca1db056217f1f92, type: 3}
   myHandPrefab: {fileID: 109434732395284509, guid: e7bdd2447fe0c1344ae994a6643b3a1e, type: 3}
-  showController: 1
+  showController: 0
 --- !u!1 &1871996296
 GameObject:
   m_ObjectHideFlags: 0
