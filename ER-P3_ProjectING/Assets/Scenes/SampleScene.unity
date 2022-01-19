@@ -8893,6 +8893,10 @@ PrefabInstance:
       propertyPath: showController
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1284824652025584107, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
+      propertyPath: controllerCharacteristics
+      value: 576
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
 --- !u!1 &1763846890
@@ -9730,6 +9734,10 @@ PrefabInstance:
     - target: {fileID: 1284824652025584107, guid: 8a0d7df467fb26741a49d9ead04dae94, type: 3}
       propertyPath: showController
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1284824652025584107, guid: 8a0d7df467fb26741a49d9ead04dae94, type: 3}
+      propertyPath: controllerCharacteristics
+      value: 320
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a0d7df467fb26741a49d9ead04dae94, type: 3}

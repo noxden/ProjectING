@@ -9,6 +9,8 @@ public class SendHaptic : MonoBehaviour
 
     public XRController xrControl;
 
+    public InputDevice xrController;
+
     public bool isGrabbed;
 
 
@@ -29,7 +31,15 @@ public class SendHaptic : MonoBehaviour
 
     public void SendHapticFeedback()
     {
-        xrControl.SendHapticImpulse(0.7f, 0.01f);
+        /*if(xrController.characteristics == InputDeviceCharacteristics.Left)
+        {
+            xrController.SendHapticImpulse(1, 0.7f, 0.01f);
+        }
+        if (xrController.characteristics == InputDeviceCharacteristics.Right)
+        {
+            xrController.SendHapticImpulse(1, 0.7f, 0.01f);
+        }*/
+         xrControl.SendHapticImpulse(0.7f, 0.01f);
     }
 
     public void SetIsGrabbed(bool _isGrabbed)
