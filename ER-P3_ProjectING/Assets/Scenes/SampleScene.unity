@@ -1049,7 +1049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192937369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 297931424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2304,7 +2304,7 @@ MonoBehaviour:
   m_EnableTurnAround: 1
   m_TurnUsage: 0
   m_Controllers:
-  - {fileID: 1779257524}
+  - {fileID: 1171203901}
   m_DeadZone: 0.75
 --- !u!143 &464637713
 CharacterController:
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400c0eb17005a49438edf308d17eb67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intputSourceFromDevice: 5
+  intputSourceFromDevice: 4
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2440,6 +2440,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_Name
       value: SimpleCartridgeWorld1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_TagString
@@ -3999,6 +4003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_Name
       value: SimpleCartridgeWorld1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_TagString
@@ -5754,14 +5762,14 @@ MonoBehaviour:
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
   m_ControllerNode: 5
-  m_SelectUsage: 3
-  m_ActivateUsage: 2
-  m_UIPressUsage: 2
+  m_SelectUsage: 2
+  m_ActivateUsage: 3
+  m_UIPressUsage: 4
   m_AxisToPressThreshold: 0.1
-  m_RotateAnchorLeft: 16
-  m_RotateAnchorRight: 17
-  m_MoveObjectIn: 14
-  m_MoveObjectOut: 15
+  m_RotateAnchorLeft: 0
+  m_RotateAnchorRight: 0
+  m_MoveObjectIn: 0
+  m_MoveObjectOut: 0
   m_PoseProvider: {fileID: 0}
 --- !u!1 &1217206441
 GameObject:
@@ -7160,6 +7168,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 00d5e44a467785d47b1bd50175eeabb5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe3742aa151ec5242a0e3e9cf6219cde, type: 2}
     - target: {fileID: 919132149155446097, guid: 00d5e44a467785d47b1bd50175eeabb5, type: 3}
       propertyPath: m_Name
       value: LightConeTrans2
@@ -9294,14 +9306,14 @@ MonoBehaviour:
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
   m_ControllerNode: 4
-  m_SelectUsage: 3
-  m_ActivateUsage: 2
-  m_UIPressUsage: 2
+  m_SelectUsage: 2
+  m_ActivateUsage: 3
+  m_UIPressUsage: 4
   m_AxisToPressThreshold: 0.1
-  m_RotateAnchorLeft: 16
-  m_RotateAnchorRight: 17
-  m_MoveObjectIn: 14
-  m_MoveObjectOut: 15
+  m_RotateAnchorLeft: 0
+  m_RotateAnchorRight: 0
+  m_MoveObjectIn: 0
+  m_MoveObjectOut: 0
   m_PoseProvider: {fileID: 0}
 --- !u!1 &1798942159
 GameObject:
@@ -10051,7 +10063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1948513015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10276,6 +10288,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_Name
       value: SimpleCartridgeWorld1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_TagString
@@ -10701,6 +10717,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_Name
       value: SimpleCartridgeWorld1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65ccb83d4c6572842854b163c31284c4, type: 3}
       propertyPath: m_TagString
@@ -11166,7 +11186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2088149407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
