@@ -11,7 +11,7 @@ public class Cartridge : MonoBehaviour
 
     public GameObject cartridgeTransform;
     public GameObject thisContainedWorld;
-    public GameObject Table;
+    //public GameObject Table;
     public Light SpotLight;
     public Light mainLight;
     public Material thisSkybox;
@@ -44,7 +44,7 @@ public class Cartridge : MonoBehaviour
             thisContainedWorld.SetActive(false);
             mainLight.enabled = false;
             //Table.SetActive(true);
-            Table.GetComponent<MeshRenderer>().enabled = true; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
+            //Table.GetComponent<MeshRenderer>().enabled = true; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
             SpotLight.enabled = true;
             RenderSettings.skybox = blackSkybox; // changing the Skybox works, but it doesnt get masked, so no good for our idea
         }
@@ -63,7 +63,7 @@ public class Cartridge : MonoBehaviour
             thisContainedWorld.SetActive(true);
             mainLight.enabled = true;
             //Table.SetActive(false);
-            Table.GetComponent<MeshRenderer>().enabled = false; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
+            //Table.GetComponent<MeshRenderer>().enabled = false; // --> only disable Mesh so cartridges on the table do not fall into it when switchiong it off
             SpotLight.enabled = false;
             RenderSettings.skybox = thisSkybox;
         }
@@ -80,7 +80,7 @@ public class Cartridge : MonoBehaviour
             thisContainedWorld.SetActive(true);
             mainLight.enabled = true;
             //Table.SetActive(false);
-            Table.GetComponent<MeshRenderer>().enabled = false;
+            //Table.GetComponent<MeshRenderer>().enabled = false;
             SpotLight.enabled = false;
             RenderSettings.skybox = thisSkybox;
         }

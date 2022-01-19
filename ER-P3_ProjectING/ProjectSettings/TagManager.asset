@@ -9,6 +9,7 @@ TagManager:
   - Cartridge2
   - CartridgeTransform
   - Lantern
+  - VoidCheck
   layers:
   - Default
   - TransparentFX
