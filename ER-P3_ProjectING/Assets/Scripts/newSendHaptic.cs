@@ -8,10 +8,25 @@ using UnityEngine.XR.Interaction.Toolkit;
 [RequireComponent(typeof(XRBaseInteractable))]
 public class newSendHaptic : MonoBehaviour
 {
+    public AudioSource collisionSound;
+
+    private void Start()
+    {
+        collisionSound = GetComponent<AudioSource>();
+    }
+
+
     [System.Obsolete]
+    
+
     private void OnCollisionEnter(Collision collision)
     {
         SendHaptics();
+        if(collisionSound != null)
+        {
+            collisionSound.volume = 0.3f;
+            collisionSound.Play();
+        }
     }
 
     [System.Obsolete]
