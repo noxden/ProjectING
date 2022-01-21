@@ -754,7 +754,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartridge 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2863911359912223681, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
 --- !u!4 &135787321 stripped
 Transform:
@@ -1557,7 +1558,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartridge 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2863911359912223681, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
 --- !u!4 &478805381 stripped
 Transform:
@@ -1979,6 +1981,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &710147849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134437053619183242, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
+  m_PrefabInstance: {fileID: 2863911359652990326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &723404509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2052,6 +2059,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c128856ce5e60e04ca83bcf1a4a78557, type: 3}
+--- !u!1 &784596123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134437053619183242, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
+  m_PrefabInstance: {fileID: 135787320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &784596132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784596123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979f15f23ff34e418ef6c38e5332647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &862262039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,7 +2353,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartridge 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2863911359912223681, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
 --- !u!4 &971185691 stripped
 Transform:
@@ -3887,6 +3912,23 @@ Transform:
   m_Father: {fileID: 2087528971}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -45, y: -80, z: 0}
+--- !u!1 &1551587442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134437053619183242, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
+  m_PrefabInstance: {fileID: 971185690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551587451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551587442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979f15f23ff34e418ef6c38e5332647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1656237865
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,6 +4151,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659745321}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1671085509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134437053619183242, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
+  m_PrefabInstance: {fileID: 478805380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1671085518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671085509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979f15f23ff34e418ef6c38e5332647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1683253528
 GameObject:
   m_ObjectHideFlags: 0
@@ -6006,6 +6065,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2320498709835236400, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
   m_PrefabInstance: {fileID: 2863911359652990326}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &543450651727350095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710147849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979f15f23ff34e418ef6c38e5332647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2863911359652990326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6081,5 +6152,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartridge 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2863911359912223681, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7142d3e0a43d4042a395e2bb598dba3, type: 3}
