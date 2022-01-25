@@ -950,9 +950,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallDown
@@ -1046,9 +1054,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallFront
@@ -2168,9 +2184,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallBack
@@ -3584,9 +3608,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallLeft
@@ -5212,9 +5244,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallRight
@@ -5455,9 +5495,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f345256bbddcc44b88f8de3f9559a39, type: 2}
+      objectReference: {fileID: 2100000, guid: e3d9466df82040f49ba4270ff118f87e, type: 2}
     - target: {fileID: 919132149155446097, guid: a34a9a41b9723ea43aa76e7e6012e0b3, type: 3}
       propertyPath: m_Name
       value: WallUp
