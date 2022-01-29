@@ -24,7 +24,7 @@ public class Cartridge : MonoBehaviour
         isGrabbed = false;
         isInserted = false;
         thisContainedWorld.SetActive(false);
-        RenderSettings.skybox = blackSkybox;
+        //RenderSettings.skybox = blackSkybox;
         mainLight.enabled = false;
         lightCone.SetActive(false);
     }
