@@ -27,10 +27,15 @@ public class CheckIfSeenByCamera : MonoBehaviour
     private GameObject _PivotRight;
     private float _depth = 100;
 
+    private void Awake()
+    {
+        HideableObjects = GameObject.FindGameObjectsWithTag("HideableObject");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        HideableObjects = GameObject.FindGameObjectsWithTag("HideableObject");
+        //HideableObjects = GameObject.FindGameObjectsWithTag("HideableObject");
 
         _PivotLeft = GameObject.Find("PivotLeft");
         _PivotRight = GameObject.Find("PivotRight");
@@ -80,6 +85,7 @@ public class CheckIfSeenByCamera : MonoBehaviour
         // make a pivot for the blades with an empty game object attached to the camera
         blend.transform.SetParent(pivot.transform);
         blend.transform.GetComponent<Renderer>().enabled = showBlends;
+        blend.transform.GetComponent<MeshCollider>().enabled = false;
 
         switch (_btype)
         {
