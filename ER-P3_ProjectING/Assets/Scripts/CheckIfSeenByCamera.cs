@@ -77,8 +77,9 @@ public class CheckIfSeenByCamera : MonoBehaviour
         // create the right blend:
         blend = GameObject.CreatePrimitive(PrimitiveType.Quad);
         blend.transform.localScale = new Vector3(_depth, 6, 1);
-        blend.transform.position = new Vector3(pivot.transform.position.x,
-                    pivot.transform.position.y, pivot.transform.position.z + _depth / 2.0f);
+        blend.transform.position = new Vector3(pivot.transform.position.x, pivot.transform.position.y, pivot.transform.position.z + _depth / 2.0f);
+
+
         // rotate blends towards camera
         Quaternion qrotation = Quaternion.Euler(0, 90, 0);
         blend.transform.rotation = qrotation * displayCamera.transform.rotation;
