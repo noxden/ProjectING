@@ -46,11 +46,11 @@ public class lectureController : MonoBehaviour
 
             if (targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue))
             {
-                Debug.Log("Primary Button was pressed");
+                //Debug.Log("Primary Button was pressed");
             }
             if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
             {
-                Debug.Log("Trigger Button was pressed" + triggerValue);
+                //Debug.Log("Trigger Button was pressed" + triggerValue);
                 handAnimator.SetFloat("valTrigger", triggerValue);
             }
             else
@@ -60,7 +60,7 @@ public class lectureController : MonoBehaviour
 
             if (targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
             {
-                Debug.Log("gripValue" + gripValue);
+                //Debug.Log("gripValue" + gripValue);
                 handAnimator.SetFloat("valGrip", gripValue);
             }
             else
@@ -70,7 +70,7 @@ public class lectureController : MonoBehaviour
 
             if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DValue))
             {
-                Debug.Log("Touch" + primary2DValue);
+                //Debug.Log("Touch" + primary2DValue);
             }
 
         }

@@ -69,7 +69,7 @@ public class CheckIfSeenByCamera : MonoBehaviour
             }
         }
 
-        Debug.Log(_depth);
+        //Debug.Log($"Frustrum depth: {_depth}");
     }
 
     private void CreateBlend(GameObject pivot, out GameObject blend, Blendtype _btype)
