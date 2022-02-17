@@ -117,8 +117,12 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PlaneNormal1: {r: 0, g: 1, b: 0, a: 0}
     - _PlaneNormal2: {r: 0, g: 1, b: 0, a: 0}
+    - _PlaneNormal3: {r: 0, g: 1, b: 0, a: 0}
+    - _PlaneNormal4: {r: 0, g: 1, b: 0, a: 0}
     - _PlanePosition1: {r: 0, g: 0, b: 0, a: 0}
     - _PlanePosition2: {r: 0, g: 0, b: 0, a: 0}
+    - _PlanePosition3: {r: 0, g: 0, b: 0, a: 0}
+    - _PlanePosition4: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2867203386437077265

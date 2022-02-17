@@ -48,9 +48,9 @@ public class CheckIfSeenByCamera : MonoBehaviour
         CreateBlend(_PivotLeft, out leftBlend, Blendtype.btLEFT);
         // create the right blend:
         CreateBlend(_PivotRight, out rightBlend, Blendtype.btRIGHT);
-
+        // create the top blend:
         CreateBlend(_PivotTop, out topBlend, Blendtype.btTOP);
-
+        // create the bottom blend:
         CreateBlend(_PivotBottom, out bottomBlend, Blendtype.btBOTTOM);
 
         _depth = displayCamera.farClipPlane;
@@ -132,6 +132,12 @@ public class CheckIfSeenByCamera : MonoBehaviour
 
         mat.SetVector("_PlanePosition2", rightBlend.transform.position);
         mat.SetVector("_PlaneNormal2", rightBlend.transform.forward);
+
+        mat.SetVector("_PlanePosition3", topBlend.transform.position);
+        mat.SetVector("_PlaneNormal3", topBlend.transform.forward);
+
+        mat.SetVector("_PlanePosition4", bottomBlend.transform.position);
+        mat.SetVector("_PlaneNormal4", bottomBlend.transform.forward);
     }
 
     private void HideObjects(GameObject go, bool hideIt)
