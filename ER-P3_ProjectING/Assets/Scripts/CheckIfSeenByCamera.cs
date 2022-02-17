@@ -25,6 +25,8 @@ public class CheckIfSeenByCamera : MonoBehaviour
     // pivot used as an hinge. Pivots are child to the camera
     private GameObject _PivotLeft;
     private GameObject _PivotRight;
+    private GameObject _PivotTop;
+    private GameObject _PivotBottom;
     private float _depth = 100;
 
     private void Awake()
@@ -39,11 +41,17 @@ public class CheckIfSeenByCamera : MonoBehaviour
 
         _PivotLeft = GameObject.Find("PivotLeft");
         _PivotRight = GameObject.Find("PivotRight");
+        _PivotTop = GameObject.Find("PivotTop");
+        _PivotBottom = GameObject.Find("PivotBottom");
 
         // create the right blend:
         CreateBlend(_PivotLeft, out leftBlend, Blendtype.btLEFT);
         // create the right blend:
         CreateBlend(_PivotRight, out rightBlend, Blendtype.btRIGHT);
+
+        CreateBlend(_PivotTop, out topBlend, Blendtype.btTOP);
+
+        CreateBlend(_PivotBottom, out bottomBlend, Blendtype.btBOTTOM);
 
         _depth = displayCamera.farClipPlane;
         Debug.Log(displayCamera);
@@ -99,8 +107,12 @@ public class CheckIfSeenByCamera : MonoBehaviour
                 qrotation = Quaternion.Euler(0, -(displayCamera.fieldOfView * displayCamera.aspect) / 2.0f, 180f); // 180?
                 break;
 
-            case Blendtype.btTOP: break; // for top and bottom blends if needed
-            case Blendtype.btBOTTOM: break;
+            case Blendtype.btTOP:
+                qrotation = Quaternion.Euler((displayCamera.fieldOfView * displayCamera.aspect) / 2.0f, 0, -90f); // 180?
+                break; // for top and bottom blends if needed
+            case Blendtype.btBOTTOM:
+                qrotation = Quaternion.Euler(-(displayCamera.fieldOfView * displayCamera.aspect) / 2.0f, 0, 90f); // 180?
+                break;
             default:
                 qrotation = Quaternion.Euler(0, 0, 0);
                 break;
