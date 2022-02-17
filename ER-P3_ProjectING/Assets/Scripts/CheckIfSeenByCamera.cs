@@ -37,6 +37,7 @@ public class CheckIfSeenByCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         //HideableObjects = GameObject.FindGameObjectsWithTag("HideableObject");
 
         _PivotLeft = GameObject.Find("PivotLeft");
@@ -60,6 +61,8 @@ public class CheckIfSeenByCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         // loop over all tagged and found objects in scene
         foreach (GameObject go in HideableObjects)
         {

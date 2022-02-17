@@ -3726,7 +3726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayCamera: {fileID: 659688373}
   HideableObjects: []
-  showBlends: 1
+  showBlends: 0
 --- !u!4 &93905133 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 729397312204676630, guid: e2d1893c34aecc443b352521e121fb32,
@@ -37416,7 +37416,8 @@ MonoBehaviour:
   isInserted: 0
   cartridgeTransform: {fileID: 1509144279}
   thisContainedWorld: {fileID: 205429970}
-  skybox: {fileID: 2100000, guid: d991e3422d17c374187ab77bf7b192b4, type: 2}
+  blackSkybox: {fileID: 2100000, guid: 8e888717804355d479575596c87b677b, type: 2}
+  skybox: {fileID: 2100000, guid: 8cfb6587f2b62dd499037b5ce816cb16, type: 2}
 --- !u!82 &957311826
 AudioSource:
   m_ObjectHideFlags: 0
@@ -59903,7 +59904,8 @@ MonoBehaviour:
   isInserted: 0
   cartridgeTransform: {fileID: 1509144279}
   thisContainedWorld: {fileID: 722499208}
-  skybox: {fileID: 2100000, guid: d991e3422d17c374187ab77bf7b192b4, type: 2}
+  blackSkybox: {fileID: 2100000, guid: 8e888717804355d479575596c87b677b, type: 2}
+  skybox: {fileID: 2100000, guid: 7e94338dca7ded64cac2bbdb6b63be08, type: 2}
 --- !u!114 &1557764416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68759,6 +68761,7 @@ MonoBehaviour:
   isInserted: 0
   cartridgeTransform: {fileID: 1509144279}
   thisContainedWorld: {fileID: 1933174669}
+  blackSkybox: {fileID: 2100000, guid: 8e888717804355d479575596c87b677b, type: 2}
   skybox: {fileID: 2100000, guid: d991e3422d17c374187ab77bf7b192b4, type: 2}
 --- !u!114 &1763882483
 MonoBehaviour:

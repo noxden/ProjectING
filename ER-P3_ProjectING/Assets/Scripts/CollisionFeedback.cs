@@ -24,8 +24,11 @@ public class CollisionFeedback : MonoBehaviour
         SendHaptics();
         if (collisionSound != null)
         {
-            collisionSound.volume = 0.3f;
-            collisionSound.Play();
+            if (this.GetComponent<Cartridge>().isInserted == false && this.GetComponent<Cartridge>().isGrabbed == true)
+            {
+                collisionSound.volume = 0.3f;
+                collisionSound.Play();
+            }
         }
     }
 

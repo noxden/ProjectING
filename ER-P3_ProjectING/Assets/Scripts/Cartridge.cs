@@ -14,6 +14,7 @@ public class Cartridge : MonoBehaviour
     //public GameObject lightCone;
     //public Light SpotLight;
     //public Light mainLight;
+    public Material blackSkybox;
     public Material skybox;
 
 
@@ -24,7 +25,7 @@ public class Cartridge : MonoBehaviour
         isGrabbed = false;
         isInserted = false;
         thisContainedWorld.SetActive(false);
-        //RenderSettings.skybox = skybox;
+        RenderSettings.skybox = blackSkybox;
         //mainLight.enabled = false;
         //lightCone.SetActive(false);
     }
@@ -42,6 +43,7 @@ public class Cartridge : MonoBehaviour
         {
             isInserted = false;
             thisContainedWorld.SetActive(false);
+            RenderSettings.skybox = blackSkybox;
             //mainLight.enabled = false;
             //SpotLight.enabled = true;
             //lightCone.SetActive(false);
