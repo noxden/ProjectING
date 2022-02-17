@@ -49,7 +49,7 @@ public class Cartridge : MonoBehaviour
             //lightCone.SetActive(false);
         }
 
-        Debug.Log(isGrabbed);
+        //Debug.Log("isGrabbed: " + isGrabbed);
     }
 
 

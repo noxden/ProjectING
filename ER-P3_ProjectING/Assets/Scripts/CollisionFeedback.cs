@@ -22,6 +22,7 @@ public class CollisionFeedback : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         SendHaptics();
+        
         if (collisionSound != null)
         {
             if (this.GetComponent<Cartridge>().isInserted == false && this.GetComponent<Cartridge>().isGrabbed == true)
@@ -30,6 +31,7 @@ public class CollisionFeedback : MonoBehaviour
                 collisionSound.Play();
             }
         }
+        
     }
 
     [System.Obsolete]
