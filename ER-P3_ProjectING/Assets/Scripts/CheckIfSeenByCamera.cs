@@ -1,11 +1,11 @@
-///////////////////////////////////////////////////////////////
-///
-///  Shows Objects only if in camera view for ER-P3
-///  Prof. Dr. Frank Gabler, fbmd, Hochschule Darmstadt
-///  28.01.22
-///  01.02.22: Fade out and second "ghost" shader
-/// 
-///////////////////////////////////////////////////////////////
+//----------------------------------------------------------------------------------------------
+// Institution:   Darmstadt University of Applied Sciences, Expanded Realities
+// Class:         Project 3: "Hidden Ventures Beyond The Spotlight" by Prof. Dr. Frank Gabler
+// Script by:     Prof. Dr. Frank Gabler, Julius Faust and Daniel Heilmann (771144)
+// Created:       28-01-22
+// Last changed:  17-02-22
+// Purpose:       Shows Objects only if in camera view
+//----------------------------------------------------------------------------------------------
 
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +13,7 @@ using UnityEngine;
 
 public class CheckIfSeenByCamera : MonoBehaviour
 {
+    public LanternHandler LanternHandler;   //< I know that this is very bad code, but for now it works. If we're lucky, I'm gonna to it properly somewhen later.
     public Camera displayCamera;
     public GameObject[] HideableObjects;
     public bool showBlends = false;
@@ -141,6 +142,8 @@ public class CheckIfSeenByCamera : MonoBehaviour
 
         mat.SetVector("_PlanePosition4", bottomBlend.transform.position);
         mat.SetVector("_PlaneNormal4", bottomBlend.transform.forward);
+
+        mat.SetFloat("_Alpha", LanternHandler.getNewMatAlpha());
     }
 
     private void HideObjects(GameObject go, bool hideIt)
