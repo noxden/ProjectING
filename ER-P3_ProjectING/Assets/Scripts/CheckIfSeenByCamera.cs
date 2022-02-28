@@ -3,7 +3,7 @@
 // Class:         Project 3: "Hidden Ventures Beyond The Spotlight" by Prof. Dr. Frank Gabler
 // Script by:     Prof. Dr. Frank Gabler, Julius Faust and Daniel Heilmann (771144)
 // Created:       28-01-22
-// Last changed:  17-02-22
+// Last changed:  17-02-22 (by Julius Faust & Daniel Heilmann)
 // Purpose:       Shows Objects only if in camera view
 //----------------------------------------------------------------------------------------------
 
@@ -13,7 +13,7 @@ using UnityEngine;
 
 public class CheckIfSeenByCamera : MonoBehaviour
 {
-    public LanternHandler LanternHandler;   //< I know that this is very bad code, but for now it works. If we're lucky, I'm gonna to it properly somewhen later.
+    public LanternHandler LanternHandler;   //< I know that this is very bad code, but for now it works. If we're lucky, I'm gonna do it properly somewhen later.
     public Camera displayCamera;
     public GameObject[] HideableObjects;
     public bool showBlends = false;

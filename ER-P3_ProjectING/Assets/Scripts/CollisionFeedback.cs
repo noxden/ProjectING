@@ -1,3 +1,11 @@
+//----------------------------------------------------------------------------------------------
+// Institution:   Darmstadt University of Applied Sciences, Expanded Realities
+// Class:         Project 3: "Hidden Ventures Beyond The Spotlight" by Prof. Dr. Frank Gabler
+// Script by:     Yanina Koulakovski (771310) & Julius Faust (770970)
+// Last changed:  17-02-22
+//----------------------------------------------------------------------------------------------
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,9 +31,9 @@ public class CollisionFeedback : MonoBehaviour
     {
         SendHaptics();
         
-        if (collisionSound != null)
+        if (collisionSound != null)     // playing a simple sound when colliding with objects
         {
-            if (this.GetComponent<Cartridge>().isInserted == false && this.GetComponent<Cartridge>().isGrabbed == true)
+            if (this.GetComponent<Cartridge>().isInserted == false && this.GetComponent<Cartridge>().isGrabbed == true) // only when grabbed and not inserted to avoid constand feedback
             {
                 collisionSound.volume = 0.3f;
                 collisionSound.Play();

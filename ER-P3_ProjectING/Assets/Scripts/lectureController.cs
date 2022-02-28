@@ -1,3 +1,10 @@
+//----------------------------------------------------------------------------------------------
+// Institution:   Darmstadt University of Applied Sciences, Expanded Realities
+// Class:         Project 3: "Hidden Ventures Beyond The Spotlight" by Prof. Dr. Frank Gabler
+// Script by:     Julius Faust (770970)
+// Last changed:  2021
+//----------------------------------------------------------------------------------------------
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
